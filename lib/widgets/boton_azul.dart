@@ -7,7 +7,7 @@ class BotonAzul extends StatelessWidget {
     required this.text,
   }) : super(key: key);
 
-  final void Function() onPressed;
+  final void Function()? onPressed;
   final String text;
 
   @override
